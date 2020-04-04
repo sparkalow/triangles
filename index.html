@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triangles</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="main.js"></script>
+	<style type="text/css">
+	html, body {
+		margin: 0px;
+		background-color: #f2f2f2;
+		position: relative;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	canvas {
+		display: block;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+	#output{
+		position: absolute;
+		left:0;
+		top:0;
+		font-size: 16px;
+		padding:5px;
+		background-color: rgba(255,255,255,.5);
+		padding:20px;
+	}
+	</style>
+</head>
+<body>
+	<div id="output">
+		<div>Hypotenuse: <span id="hypotenuse" class="debug-text"></span></div>
+		<div>Theta <span id="theta" class="debug-text"></span></div>
+		<div>Opposite <span id="opposite" class="debug-text"></span></div>
+		<div>Adjacent <span id="adjacent" class="debug-text"></span></div>
+	</div>
+<canvas id="canvas"></canvas>
+</body>
+</html>
